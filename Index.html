@@ -1,0 +1,595 @@
+<!--Task 1: Basic Structure - 2 marks
+            Create an HTML file named "index.html" that includes the basic structure of an HTML
+            document. Set some meaningful titles and include appropriate meta tags.-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Here is The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. 
+    Metadata is data about the HTML document. Metadata is not displayed. Metadata typically define the document title, character set, styles, scripts, and other meta information.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Discription"
+        content="This in my frit blog post fro my introduction and the toppice which is related to future of AI in our life">
+    <meta name="keyword" content="blog core-ML Emerging Technologies MZ_Blogs">
+    <meta name="Auther" content="Mohammad Zishan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerging Technologies With MZ Blogs</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon-16x16.png">
+    <link rel="icon" type="image/png"  href="./imgs/favicon.ico">
+
+</head>
+<!--here is The <body> tag defines the document's body. 
+    The <body> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. 
+Note: There can only be one <body> element in an HTML document.-->
+<body>
+    <!--Task 2: Header - 5 marks
+                Include a catchy title reflecting the blog's theme or your name.
+                Add a tagline or short description summarizing your blog's focus-->
+    <header>
+        <!--here is the logo and name of the website-->
+
+        <!--here we use H1 tag 
+        An H1 tag is the HTML used to create the main title on a webpage and helps indicate the page's primary topic to visitors and search engines. 
+        It contains an opening <h1> tag, the title text, and a closing </h1> tag-->
+
+
+
+        <!--this is the navigation bar to reffer the content which is on the page-->
+        <!--Task 3: Navigation Bar - 5 marks
+                   Add a navigation bar to your webpage. Provide clear links to navigate between different
+                   blog posts. Consider including links to "About Me", "Contact", or other relevant sections.-->
+        <nav>
+            <!--This is Un-orderd list the is use to display the information in bullet list vice versa-->
+            <!--here we use table tag to showcase our data in table format.
+                The <table> tag defines an HTML table. An HTML table consists of one <table> element and one or more <tr>, <th>, and <td> elements. 
+                The <tr> element defines a table row, the <th> element defines a table header, and the <td> element defines a table cell.-->
+
+            <table width="100%">
+                <!-- here we use it for naviagttion purpose-->
+                <tr>
+                    <!--here is the navigation for the blogs-->
+                    <td>
+                        <a href="./Index.html">
+                                        <!--HERE WE USE IMAGE TAGE
+                                    The <img> tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. 
+                                    The <img> tag creates a holding space for the referenced image.
+                                    It is a Self Closing tag-->
+                
+                        <!--Include a catchy title reflecting the blog's theme or your name-->
+                            <img src="./imgs/android-chrome-512x512.png" alt="Logo" width="70px" height="70px"></a>&emsp;&emsp;</td>
+                    <td>Here is the menu of our blogs >></td>
+                    <td>
+                        <!--HERE WE USE SPAN TAG 
+                                        In HTML, the span tag is a generic inline container element. 
+                                        You use this element to wrap sections of text for styling purposes or to add attributes to a section of text without creating a new line of content. 
+                                        It is similar — but not the same as — the <div> tag.-->
+                        <span>
+                            <!--here we use <a> anchor tag : 
+                                            The <a> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address. 
+                                            Content within each <a> should indicate the link's destination-->
+
+                            <!--Provide clear links to navigate between different blog posts-->
+                            <a href="#future-of-ai" color="#C0D6E8">Future of AI</a>>>
+                            <!--Here we use non-breaking space: &nbsp;
+                                                A commonly used HTML entity is the non-breaking space: &nbsp; 
+                                                A non-breaking space is a space that will not break into a new line. 
+                                                Two words separated by a non-breaking space will stick together (not break into a new line).-->
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span>
+                            <a href="#challenges">Challenges Ahead for AI </a>>>&nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span>
+                            <a href="#applications">The Future of AI in Real Life</a>
+                        </span>
+                    </td>
+
+                    <!--here is the abut me and contat me navigation-->
+                    <td>
+                        <!--The &ensp; character entity is used to denote an 'en' space which means half point size of the current font. 
+                                 This may be perceived as twice the space of a normal space. 
+                                 The &emsp; character entity is used to denote an 'em' space which means equal to the point size of the current font.-->
+                        &emsp;&emsp;
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    </td>
+                    <!--Consider including links to "About Me", "Contact", or other relevant sections.-->
+                    <td>
+                        <a href="#about">About Me</a>
+                    </td>
+                    <td>
+                        <a href="#contact">Contact Ma</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+
+        <!--The <hr> tag defines a thematic break in an HTML page (e.g. a shift of topic). 
+         The <hr> element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.-->
+        <hr />
+        <fieldset align="center" >
+            
+                        <!--here we use <br/> tag that is use to block the the entire line.
+                        It is a self closing tag-->
+                        <br />
+                        <!--here we use H2 tag to show our website title.-->
+                        <!--here we HTML align Attribute to center our H2 element
+                             HTML is used to specify the alignment of the text content of The Element. This attribute is used in all elements. The Align attribute can also be set using the CSS property “text-align: ” or in <img> “vertical-align: “. For horizontal alignment, use align with values like “left,” “center,” or “right” within appropriate tags.
+                             Note: The align attribute is deprecated in HTML5, and styles should be used via CSS for better practices.-->
+
+
+                        <h2 >Welcome to
+                            Emerging Technologies with MZ Blogs </h2><br>
+                    
+                    
+                    
+                        <!--Here is the summury about out Blog website-->
+
+                        <!--here we use the paragraph tag 
+                        The <p> tag defines a paragraph. Browsers automatically add a single blank line before and after each <p> element. 
+                        Tip: Use CSS to style paragraphs.-->
+
+                        <!--Add a tagline or short description summarizing your blog's focus-->
+                        <p >&emsp;
+                            In our blog, we embark on an exciting journey through the ever-evolving landscape of
+                            emerging technologies.
+                            We dive deep into the latest innovations, trends, and breakthroughs shaping the future of
+                            industries and society.
+                            From artificial intelligence and blockchain to quantum computing and biotechnology, we
+                            unravel the mysteries behind these cutting-edge technologies and examine their potential
+                            impact on our lives.
+                        </p>
+
+                     <hr /><hr/>
+
+
+            <!--here is the main content start that is the description of our blog website is about-->
+
+
+
+            <p width="50%">&emsp;&emsp;Welcome to our blog, where we're dedicated to uncovering the most
+                intriguing developments in emerging
+                technologies. In this fast-paced digital age, staying abreast of the latest innovations is more crucial
+                than ever. That's why we're here to guide you through the dynamic world of tomorrow's tech.
+
+                Join us as we explore the forefront of innovation, delving into the realms of artificial intelligence,
+                blockchain, quantum computing, biotechnology, and beyond. Through in-depth analyses, expert insights,
+                and captivating discussions, we shed light on the transformative power of these emerging technologies.
+
+                Whether you're a seasoned tech enthusiast or a curious newcomer, our blog offers something for everyone.
+                Discover how AI is revolutionizing industries, learn about the potential of blockchain to reshape
+                economies, and explore the mind-bending possibilities of quantum computing. We go beyond the headlines
+                to provide a
+                comprehensive understanding of the latest trends and developments shaping our future.
+
+                But our exploration doesn't stop there. We also examine the ethical, societal, and environmental
+                implications of emerging technologies, sparking conversations about how we can harness innovation for
+                the greater good of humanity.
+
+                So, if you're ready to embark on a journey of discovery and innovation, join us as we unveil tomorrow's
+                tech and explore the endless possibilities of the digital frontier. Together, let's shape a future where
+                technology serves as a force for positive change in our world.
+            </p>
+        </fieldset>
+    </header><br>
+
+    <!--First Blog Post-->
+    <!--Task 4: Blog Posts Section - 5 marks
+                 Each post should have:
+                 Title: Descriptive and attention-grabbing.
+                 Summary: Briefly introduce the post's content.
+                 Content: Engaging and well-written text showcasing your personality and perspective.
+                 Image: Add a relevant image to enhance the post visually.-->
+    <article class="post" id="future-of-ai">
+
+        <!--HERE WE USE <FIELDSET> TAG.
+            The <fieldset> tag is used to group related elements in a form. 
+            The <fieldset> tag draws a box around the related elements.-->
+        <fieldset>
+            <legend><em>First Blog</em></legend>
+
+            <table>
+                <tr>
+                    <td><img src="./imgs/future-of-artificial-intelligence.png" widht="200px " height="300Px"></td>
+                    <td>&emsp;&emsp;&emsp;</td>
+                    <td>
+                        <!--title-->
+                        <h2 style="text-align: center;">The Future of AI</h2>
+                        <!--Summary: -->
+                        <p align="center"><em><a href="https://openai.com/">Artificial Intelligence (AI)</a> is poised
+                                to transform numerous aspects of our society in the coming years,
+                                ushering in a new era of innovation, efficiency, and possibility.</em></p>
+                    </td>
+                </tr>
+            </table>
+            <hr />
+            <!--Content:-->
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <h3>Advancements in Automation</h3>
+                            <p><a
+                                    href="https://www.ibm.com/automation?utm_content=SRCWW&p1=Search&p4=43700074852185704&p5=e&gad_source=1&gclid=Cj0KCQjwztOwBhD7ARIsAPDKnkD6g09b_pdpaUQ2WyiuRsMoeCRMjXJOOdv6j2j-s24CaPzmCeQvd7gaAgqAEALw_wcB&gclsrc=aw.ds">AI-powered
+                                    automation</a> will continue to revolutionize industries by streamlining processes,
+                                increasing
+                                productivity, and reducing costs. From manufacturing to healthcare, AI will automate
+                                repetitive tasks,
+                                freeing up human workers to focus on more creative and strategic endeavors.</p>
+                        </div>
+                        <di>
+                            <h3>Personalized Experiences</h3>
+                            <p><a href="https://www.tableau.com/data-insights/ai/algorithms">AI algorithms</a> will
+                                enable highly personalized experiences across various domains, including e-commerce,
+                                entertainment, and healthcare. By analyzing vast amounts of data, AI systems can tailor
+                                recommendations,
+                                services, and content to individual preferences, enhancing user satisfaction and
+                                engagement.</p>
+                            </div>
+                            <di>
+                                <h3>Breakthroughs in Healthcare</h3>
+                                <p><a
+                                        href="https://info.orchidea.dev/innovation-blog/what-is-ai-driven-innovation-role-of-ai-in-innovation#:~:text=AI%2Ddriven%20innovation%20means%20the,%2C%20and%20improve%20decision%2Dmaking.">AI-driven
+                                        technologies</a> hold the potential to revolutionize healthcare by enabling
+                                    early disease
+                                    detection, personalized treatment plans, and predictive analytics. From medical
+                                    imaging to drug
+                                    discovery, AI algorithms will accelerate research and improve patient outcomes.</p>
+                                </div>
+                                <di>
+                                    <h3>Ethical and Regulatory Considerations</h3>
+                                    <p><a
+                                            href="https://hbr.org/sponsored/2019/02/ai-is-not-just-getting-better-its-becoming-more-pervasive">As
+                                            AI becomes more pervasive</a>, it's crucial to address ethical and
+                                        regulatory challenges to ensure
+                                        responsible development and deployment. Issues such as bias, privacy, and
+                                        accountability must be
+                                        carefully navigated to build trust and mitigate potential risks.</p>
+                                    </div>
+                                    <di>
+                                        <h3>Integration with Emerging Technologies</h3>
+                                        <p>AI will increasingly intersect with other emerging technologies such as <a
+                                                href="https://www.springeropen.com/p/engineering/robotics">robotics</a>,
+                                            <a href="https://www.ibm.com/topics/blockchain-ai">blockchain</a>, and the
+                                            <a
+                                                href="https://www.techtarget.com/iotagenda/tip/AI-and-IoT-How-do-the-internet-of-things-and-AI-work-together">Internet
+                                                of Things (IoT)</a>. This convergence will unlock new possibilities for
+                                            automation, data analysis,
+                                            and decision-making, leading to innovative solutions and business models.
+                                        </p>
+                                        </div>
+                                        <di>
+                                            <p>The future of AI holds immense promise, but it also presents complex
+                                                challenges that must be addressed
+                                                collaboratively by policymakers, researchers, and industry stakeholders.
+                                                By harnessing the
+                                                transformative power of AI responsibly, we can create a future that is
+                                                smarter, more efficient, and more
+                                                equitable for all.</p>
+
+                                            </div>
+                    </td>
+                    <td>
+                        <div>
+                            <!--video secrtion -->
+                            <!--Task 7: Embedded Video - 5 marks
+                                    Embed short video clips directly within their blog posts to illustrate specific points,
+                                    showcase skills, or offer alternative perspectives.-->
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/FGRAcczxRJw?si=pcV_hrjGU5WzThkB"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+
+        </fieldset>
+    </article><br><br>
+
+    <!--second Blog Post-->
+    <artical class="post" id="challenges">
+        <fieldset>
+            <legend><em>Second Blog</em></legend>
+            <table>
+                <tr>
+                    <td>
+                        <img src="https://thecriticalscript.com/public/uploads/blog/6447c929746bc_tmpphpwtkyrf.jpg"
+                            height="300px" width="500px">
+                    </td>
+                    <td>&emsp;&emsp;&emsp;</td>
+                    <td>
+                        <!--title-->
+                        <h2 style="text-align: center;">Challenges Ahead for AI</h2>
+                        <!--Summary-->
+                        <p><em>Artificial Intelligence (AI) holds immense potential to revolutionize various aspects of
+                                our lives, but
+                                it also presents several challenges that must be addressed as the technology continues
+                                to evolve.</em></p>
+
+                    </td>
+                </tr>
+            </table>
+            <hr>
+            <table>
+                <tr>
+                    <!--Content:-->
+                    <!--reading section-->
+                    <td>
+                        <div>
+                            <h3>Ethical Considerations</h3>
+                            <p>One of the primary concerns surrounding AI is its ethical implications. As AI systems
+                                become more advanced, questions arise regarding their decision-making processes, biases,
+                                and potential for misuse.
+                                It's crucial to establish ethical guidelines and frameworks to ensure that AI is
+                                developed and deployed responsibly.</p>
+                        </div>
+                        <div>
+                            <h3>Data Privacy and Security</h3>
+                            <p>AI relies heavily on data, and the collection and analysis of vast amounts of personal
+                                information raise significant privacy concerns.
+                                Ensuring the security of data and protecting individuals' privacy rights is essential to
+                                maintaining trust in AI systems.</p>
+                        </div>
+                        <div>
+                            <h3>Job Displacement</h3>
+                            <p>The automation <a
+                                    href="https://gamco.es/en/types-of-artificial-intelligence-capacity-functionality/#:~:text=AI%20analyzes%20users'%20behavior%20on,match%20their%20needs%20and%20desires.">capabilities</a>
+                                of AI have the potential to disrupt traditional job markets and lead to widespread job
+                                displacement.
+                                As AI technologies continue to advance, efforts must be made to reskill and upskill the
+                                workforce to adapt to the changing labor landscape.</p>
+                        </div>
+                        <div>
+                            <h3>Transparency and Accountability</h3>
+                            <p><a href="https://hbr.org/2023/05/ai-can-be-both-accurate-and-transparent">AI algorithms
+                                    can be complex and opaque</a>, making it challenging to understand how they arrive
+                                at certain decisions.
+                                Ensuring transparency and accountability in AI systems is critical for building trust
+                                and mitigating potential biases or errors.</p>
+                        </div>
+                        <div>
+                            <h3>Regulatory and Legal Frameworks</h3>
+                            <p>The rapid pace of AI development has outpaced regulatory and legal frameworks, leaving
+                                gaps in oversight and accountability.
+                                Establishing comprehensive regulations and standards for AI development, deployment, and
+                                usage is essential to address potential risks and ensure ethical AI practices.</p>
+                        </div>
+                    </td>
+                    <!--video section-->
+                    <td>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/C5dpz-CJfYs?si=3hmYkAQSX5RxV-1T"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    </td>
+
+                </tr>
+            </table>
+            <p> <em>While these challenges are significant, they also present opportunities for collaboration and
+                    innovation
+                    to create AI systems that benefit society while minimizing potential harms.</em></p>
+
+        </fieldset>
+        </article><br><br>
+        <!--Third Blog Post-->
+        <article class="post" id="applications">
+            <fieldset>
+                <legend><em>Third Blog</em></legend>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="  https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/04/applications-of-AI.jpg"
+                                height="300px" width="500px">
+                        </td>
+                        <td>&emsp;&emsp;&emsp;</td>
+                        <td>
+                            <!--title-->
+                            <h2 style="text-align: center;">The Future of AI in Real Life</h2>
+                            <!--Summary-->
+                            <p><em>Artificial Intelligence (AI) is already making significant strides in various aspects
+                                    of our daily
+                                    lives, and its impact is only expected to grow in the future. Here are some key
+                                    areas where AI is
+                                    poised to revolutionize real life:</em></p>
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+
+
+
+                <table>
+                    <tr>
+                        <!--reading section-->
+                        <td>
+                            <div>
+                                <h3>1. Healthcare</h3>
+                                <p>
+                                    In healthcare, AI-powered technologies are expected to enable early disease
+                                    detection, personalized treatment plans, and predictive analytics.
+                                    AI algorithms can analyze medical data more efficiently than humans, leading to
+                                    faster diagnoses and improved patient outcomes.
+                                </p>
+                            </div>
+                            <div>
+                                <h3>2. Transportation</h3>
+                                <p>
+                                    Self-driving cars and other autonomous vehicles are a prominent example of AI's
+                                    potential in transportation.
+                                    These vehicles use AI algorithms to navigate roads, interpret traffic signals, and
+                                    make split-second decisions to ensure safe and efficient travel.
+                                </p>
+                            </div>
+                            <div>
+                                <h3>3. Education</h3>
+                                <p>
+                                    AI has the potential to transform education by providing personalized learning
+                                    experiences tailored to individual students' needs and abilities.
+                                    AI-powered tutoring systems can adapt lessons in real time based on students'
+                                    progress and learning styles, enhancing engagement and comprehension.
+                                </p>
+                            </div>
+                            <div>
+                                <h3>4. Finance</h3>
+                                <p>
+                                    In the financial sector, AI is revolutionizing processes such as fraud detection,
+                                    risk assessment, and investment management.
+                                    AI algorithms can analyze vast amounts of financial data to identify patterns and
+                                    trends, helping businesses make more informed decisions and mitigate risks.
+                                </p>
+                            </div>
+                            <div>
+                                <h3>5. Customer Service</h3>
+                                <p>
+                                    AI-powered chatbots and virtual assistants are increasingly being used in customer
+                                    service to provide round-the-clock support and assistance.
+                                    These AI systems can understand natural language queries, provide relevant
+                                    information, and resolve common issues, improving customer satisfaction and reducing
+                                    response times.
+                                </p>
+                            </div>
+                        </td>
+                        <!--video section-->
+                        <td>
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/LWiM-LuRe6w?si=oKP55V5wYDLU_F-_"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </td>
+
+                    </tr>
+                </table>
+                <p><em>The future of AI in real life is filled with exciting possibilities, but it also raises important
+                        ethical, societal, and regulatory considerations that must be addressed. By harnessing AI
+                        responsibly and ethically, we can unlock its full potential to improve lives and transform
+                        industries.</em></p>
+
+            </fieldset>
+        </article><br>
+        <hr>
+
+        <!--Introduction to the Authot (about me Section)-->
+        <!--Task 5 : About Me: - 5 marks
+                     Share a brief introduction about yourself and your interests.Explain the purpose of your
+                     blog and what readers can expect.-->
+        <section id="about" align="center">
+           <table width="100%">
+            <tr>
+                <td width="20%"> <h2 >About Me</h2></td>
+               <td Width="80%"><p>I extend a warm welcome to all tech aficionados and curious minds alike. My name is Mohammad Zishan, and
+                    I'm deeply passionate about the intricate tapestry of technology that weaves its way through our lives.
+                From the moment I first laid hands on a computer, I was captivated by its potential to revolutionize the
+                    world around us. Since then, my journey as a tech enthusiast has been nothing short of exhilarating.
+                    Whether it's diving headfirst into the latest AI breakthroughs or immersing myself in the world of
+                    cybersecurity, each new discovery fuels my curiosity and ignites a sense of wonder.<br />
+                When I'm not busy tinkering with code or dissecting the inner workings of the newest gadgets, I find
+                    solace in crafting insightful blog posts that bridge the gap between complex tech concepts and everyday
+                    life. Through my writing, I aim to demystify the intricacies of technology and empower readers to
+                    embrace the digital age with confidence.
+                This blog is more than just a platform for sharing knowledge—it's a community, a hub of collective
+                    learning and growth. Together, we'll embark on a journey of exploration, uncovering the hidden gems of
+                    the tech world and charting a course towards a future filled with innovation and possibility.
+                So, whether you're a seasoned tech veteran or a curious newcomer, I invite you to join me on this
+                    exhilarating adventure. Together, let's unlock the mysteries of technology and pave the way for a
+                    brighter tomorrow.
+                    </p></td>
+            </tr>
+           </table>
+            
+        </section><br /><br />
+        <!--contact me section-->
+        <!--Task 6 : Contact: 8 marks
+            Offer ways for readers to connect with you:
+            Email address
+            Social media links
+            Contact form-->
+        <section id="contact">
+            <fieldset>
+                <!--here we use center tag that is Not Supported in HTML5.
+                   The <center> tag was used in HTML4 to center-align text.-->
+                <center>
+                    <h2>Contect Me</h2>
+                </center><br />
+                <table width="100%">
+                    <thead>
+                        <tr>
+                            <th colspan="1">Contact details</th>
+
+                            <th colspan="1">Contect Form</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <center>
+                                    <p>Feel free to reach out to us at:</p>
+                                    <a href="mailto:zishan.ut@gmail.com"
+                                        target="_blank">zishan.ut@gmails.com</a><br /><br /><br /><br />
+                                    <p>Let's connect on social media:</p>
+
+                                    <p>
+                                        <a href="https://twitter.com/WayHmd" target="_blank">
+                                            <img src="./imgs/icons8-twitter.svg" alt="Twitter" height="30px"
+                                                width="30px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="https://www.linkedin.com/in/mohammad-zishan-1592a921a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                            target="_blank">
+                                            <img src="./imgs/icons8-linkedin.gif" alt="LinkedIn" height="30px"
+                                                width="30px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="https://www.instagram.com/hmd_shaan_official?igsh=MTlqajAwZWU2Y2Qycg=="
+                                            alt="instagram" target="_blank">
+                                            <img src="./imgs/instagram.gif" alt="instagram" height="30px" width="30px">
+                                        </a>
+                                    </p>
+                                </center>
+                            </td>
+
+                            <td> <br>
+                                <center>
+                                    <form id="contact-form" >
+                                        <label for="fname"><b>First Name:&nbsp;&nbsp;</b></label>
+                                        <input type="text" id="fname" name="fname" required><br><br>
+                                        <label for="lname"><b>Last Name:&nbsp;&nbsp;</b></label>
+                                        <input type="text" id="lname" name="lname" required><br><br>
+                                        <label
+                                            for="email"><b>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                                        <input type="email" id="email" name="email" required><br><br>
+                                        <label for="query"><b>Massage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                                        <textarea id="query" name="query" rows="4" required></textarea><br><br>
+                                        <button type="submit" value="send_email"><strong>Submit</strong></button>
+
+                                </center>
+                                </form><br />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </section>
+
+        <!--There is some Copy rights information and about the develpoer of the page-->
+        <!--Footer section-->
+        <!--Task 8 : Footer - 5 marks
+                     Include copyright information or website credits.
+                     You can add additional links or information relevant to your blog.-->
+        <footer>
+            <center>
+                <p>&nbsp;&nbsp;&nbsp;&copy; 2024 Mohammad Zishan, <i>The Future of AI. All rights reserved by <a href="Index.html">MZ Blogs</a></i><br />
+                 </p>
+            </center>
+
+        </footer>
+
+</body>
+
+</html>
